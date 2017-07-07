@@ -18,10 +18,10 @@ export default class Work extends React.Component{
 				<p className="subTitle">Personal Projects</p>
 				<div className="row projectContainer">
 					<div className="col-md-4 col-sm-4">
-						<a href="/Portfolio/resume"><div className="projectDiv1">Online Portfolio</div></a>
+						<a href="/resume"><div className="projectDiv1">Online Portfolio</div></a>
 					</div>
 					<div className="col-md-4 col-sm-4">
-						<a href="/Portfolio/paintings"><div className="projectDiv1">Check out some of my paintings</div></a>
+						<a href="/paintings"><div className="projectDiv1">Check out some of my paintings</div></a>
 					</div>
 					<div className="col-md-4 col-sm-4">
 {/*						<div className="projectDiv1">Design Mockups</div>
