@@ -2,18 +2,24 @@
   "name": "myp-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://tejashreekate.github.io/my-portfolio",
+  "homepage": "https://tejashreekate.github.io/my-portfolio",
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "highcharts": "^5.0.12",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router": "3",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.10",
+    "sass-loader": "^6.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d dist"
+    "deploy": "npm run build&&gh-pages -d dist",
+    "sass" : "sass --watch src/index.css:src/index.css "
   }
 }
