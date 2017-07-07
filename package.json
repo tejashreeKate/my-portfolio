@@ -19,7 +19,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d dist",
-    "sass" : "sass --watch src/index.css:src/index.css "
+    "deploy": "npm run build&&gh-pages -d dist"
   }
 }
